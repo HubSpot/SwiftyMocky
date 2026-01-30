@@ -6,11 +6,11 @@ Pod::Spec.new do |s|
 Library that uses metaprogramming technique to generate mocks based on sources, that makes testing for Swift Mockito-like.
                        DESC
 
-  s.homepage         = 'https://github.com/MakeAWishFoundation/SwiftyMocky'
+  s.homepage         = 'https://github.com/HubSpot/SwiftyMocky'
   s.screenshots      = 'https://raw.githubusercontent.com/MakeAWishFoundation/SwiftyMocky/1.0.0/icon.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Przemysław Wośko' => 'przemyslaw.wosko@intive.com', 'Andrzej Michnia' => 'amichnia@gmail.com' }
-  s.source           = { :git => 'https://github.com/MakeAWishFoundation/SwiftyMocky.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/HubSpot/SwiftyMocky.git', :tag => s.version.to_s }
 
   s.swift_versions    = ['4.2', '5.0', '5.1', '5.1.2', '5.2', '5.3', '5.4', '5.5']
   s.ios.deployment_target = '9.0'
