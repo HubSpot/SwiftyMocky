@@ -355,9 +355,9 @@
 <p>While it is technically possible to integrate SwiftyMocky on Linux targets, there is no Mock generation feature there yet. You can use SwiftyMokcy runtime via SwiftPM though, as long as your are fine with generating mocks on mac machine.</p>
 <h2 id='migration-from-3-2-0-and-below' class='heading'>Migration from 3.2.0 and below</h2>
 
-<p>The migration is not required, you can keep using <strong>SwiftyMocky</strong> as you did before. The <a href="https://github.com/MakeAWishFoundation/SwiftyMocky/blob/master/guides/Legacy.md">Legacy setup</a> is described in <a href="https://github.com/MakeAWishFoundation/SwiftyMocky/blob/master/guides/Contents.md">guides section</a>.</p>
+<p>The migration is not required, you can keep using <strong>SwiftyMocky</strong> as you did before. The <a href="https://github.com/HubSpot/SwiftyMocky/blob/master/guides/Legacy.md">Legacy setup</a> is described in <a href="https://github.com/HubSpot/SwiftyMocky/blob/master/guides/Contents.md">guides section</a>.</p>
 
-<p>Still, we would encourage to try new <strong>CLI</strong> and share a feedback. We believe it will make using and setting up <strong>SwiftyMocky</strong> way easier. If you have an existing setup, install CLI as per this <a href="https://github.com/MakeAWishFoundation/SwiftyMocky/blob/master/guides/Installation.md">guide</a> and try:</p>
+<p>Still, we would encourage to try new <strong>CLI</strong> and share a feedback. We believe it will make using and setting up <strong>SwiftyMocky</strong> way easier. If you have an existing setup, install CLI as per this <a href="https://github.com/HubSpot/SwiftyMocky/blob/master/guides/Installation.md">guide</a> and try:</p>
 <pre class="highlight shell"><code><span class="o">&gt;</span> swiftymocky migrate
 </code></pre>
 
@@ -383,7 +383,7 @@
 <p><strong><a href="https://github.com/Carthage/Carthage">Carthage</a></strong>:</p>
 
 <p>To install, add following to you Cartfile:</p>
-<pre class="highlight ruby"><code><span class="n">github</span> <span class="s2">"MakeAWishFoundation/SwiftyMocky"</span>
+<pre class="highlight ruby"><code><span class="n">github</span> <span class="s2">"HubSpot/SwiftyMocky"</span>
 </code></pre>
 
 <p>Then execute <code>carthage update</code></p>
@@ -411,11 +411,11 @@
 
 <p><strong><a href="https://github.com/yonaskolb/Mint">Mint 🌱</a></strong>:</p>
 <pre class="highlight shell"><code><span class="o">&gt;</span> brew <span class="nb">install </span>mint
-<span class="o">&gt;</span> mint <span class="nb">install </span>MakeAWishFoundation/SwiftyMocky
+<span class="o">&gt;</span> mint <span class="nb">install </span>HubSpot/SwiftyMocky
 </code></pre>
 
 <p><strong><a href="https://github.com/JohnSundell/Marathon">Marathon 🏃</a></strong>:</p>
-<pre class="highlight shell"><code><span class="o">&gt;</span> marathon <span class="nb">install </span>MakeAWishFoundation/SwiftyMocky
+<pre class="highlight shell"><code><span class="o">&gt;</span> marathon <span class="nb">install </span>HubSpot/SwiftyMocky
 </code></pre>
 
 <p><strong>Make</strong>:</p>
@@ -471,7 +471,7 @@
 
 <p>All mocks has <strong>given</strong> method (accessible both as instance method or global function), with easy to use syntax, allowing to specify what should be return values for given methods (based on specified attributes).</p>
 
-<p><img src="https://raw.githubusercontent.com/MakeAWishFoundation/SwiftyMocky/3.2.0/guides/assets/example-given.gif" alt="Generating mock" title="Example - given"></p>
+<p><img src="https://raw.githubusercontent.com/HubSpot/SwiftyMocky/3.2.0/guides/assets/example-given.gif" alt="Generating mock" title="Example - given"></p>
 
 <p>All protocol methods are nicely put into <strong>Given</strong>, with matching signature. That allows to use auto-complete (just type <code>.</code>) to see all mocked protocol methods, and specify return value for them.</p>
 
@@ -501,7 +501,7 @@
 
 <p>All mocks has <strong>verify</strong> method (accessible both as instance method or global function), with easy to use syntax, allowing to verify, whether a method was called on mock, and how many times. It also provides convenient way to specify, whether method attributes matters (and which ones).</p>
 
-<p><img src="https://raw.githubusercontent.com/MakeAWishFoundation/SwiftyMocky/3.2.0/guides/assets/example-verify.gif" alt="Generating mock" title="Example - verify"></p>
+<p><img src="https://raw.githubusercontent.com/HubSpot/SwiftyMocky/3.2.0/guides/assets/example-verify.gif" alt="Generating mock" title="Example - verify"></p>
 
 <p>All protocol methods are nicely put into <strong>Verify</strong>, with matching signature. That allows to use auto-complete (just type <code>.</code>) to see all mocked protocol methods, and specify which one we want to verify.</p>
 

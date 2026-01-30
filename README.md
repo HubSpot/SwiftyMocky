@@ -1,5 +1,5 @@
 [![Platform](https://img.shields.io/cocoapods/p/SwiftyMocky.svg?style=flat)](http://cocoapods.org/pods/SwiftyMocky)
-[![Docs](https://raw.githubusercontent.com/MakeAWishFoundation/SwiftyMocky/master/docs/badge.svg)](https://rawcdn.githack.com/MakeAWishFoundation/SwiftyMocky/master/docs/index.html)
+[![Docs](https://raw.githubusercontent.com/HubSpot/SwiftyMocky/master/docs/badge.svg)](https://rawcdn.githack.com/HubSpot/SwiftyMocky/master/docs/index.html)
 [![License](https://img.shields.io/cocoapods/l/SwiftyMocky.svg?style=flat)](http://cocoapods.org/pods/SwiftyMocky)
 
 [![Pods compatible](https://img.shields.io/cocoapods/v/SwiftyMocky.svg?style=flat&color=green)](http://cocoapods.org/pods/SwiftyMocky)
@@ -7,7 +7,7 @@
 ![Mint compatible](https://img.shields.io/badge/🌱%20Mint-compatible-green.svg)
 ![SPM compatible](https://img.shields.io/badge/SwiftPM-compatible-green.svg?style=flat&logo=swift)
 
-[![Build & Test](https://github.com/MakeAWishFoundation/SwiftyMocky/actions/workflows/master.yml/badge.svg?branch=master)](https://github.com/MakeAWishFoundation/SwiftyMocky/actions?query=branch%3Amaster) [![CocoaPods Integration](https://github.com/MakeAWishFoundation/SM-Integration-Tests/actions/workflows/cocoapods.yml/badge.svg?branch=master)](https://github.com/MakeAWishFoundation/SM-Integration-Tests/actions/workflows/cocoapods.yml) [![SwiftPM Integration](https://github.com/MakeAWishFoundation/SM-Integration-Tests/actions/workflows/swiftpm.yml/badge.svg?branch=master)](https://github.com/MakeAWishFoundation/SM-Integration-Tests/actions/workflows/swiftpm.yml) [![Carthage Integration](https://github.com/MakeAWishFoundation/SM-Integration-Tests/actions/workflows/carthage.yml/badge.svg?branch=master)](https://github.com/MakeAWishFoundation/SM-Integration-Tests/actions/workflows/carthage.yml)
+[![Build & Test](https://github.com/HubSpot/SwiftyMocky/actions/workflows/master.yml/badge.svg?branch=master)](https://github.com/HubSpot/SwiftyMocky/actions?query=branch%3Amaster) [![CocoaPods Integration](https://github.com/MakeAWishFoundation/SM-Integration-Tests/actions/workflows/cocoapods.yml/badge.svg?branch=master)](https://github.com/MakeAWishFoundation/SM-Integration-Tests/actions/workflows/cocoapods.yml) [![SwiftPM Integration](https://github.com/MakeAWishFoundation/SM-Integration-Tests/actions/workflows/swiftpm.yml/badge.svg?branch=master)](https://github.com/MakeAWishFoundation/SM-Integration-Tests/actions/workflows/swiftpm.yml) [![Carthage Integration](https://github.com/MakeAWishFoundation/SM-Integration-Tests/actions/workflows/carthage.yml/badge.svg?branch=master)](https://github.com/MakeAWishFoundation/SM-Integration-Tests/actions/workflows/carthage.yml)
 
 # ![logo][logo]
 
@@ -69,9 +69,9 @@ While it is technically possible to integrate SwiftyMocky on Linux targets, ther
 
 ## Migration from 3.2.0 and below
 
-The migration is not required, you can keep using **SwiftyMocky** as you did before. The [Legacy setup](https://github.com/MakeAWishFoundation/SwiftyMocky/blob/master/guides/Legacy.md) is described in [guides section](https://github.com/MakeAWishFoundation/SwiftyMocky/blob/master/guides/Contents.md).
+The migration is not required, you can keep using **SwiftyMocky** as you did before. The [Legacy setup](https://github.com/HubSpot/SwiftyMocky/blob/master/guides/Legacy.md) is described in [guides section](https://github.com/HubSpot/SwiftyMocky/blob/master/guides/Contents.md).
 
-Still, we would encourage to try new **CLI** and share a feedback. We believe it will make using and setting up **SwiftyMocky** way easier. If you have an existing setup, install CLI as per this [guide](https://github.com/MakeAWishFoundation/SwiftyMocky/blob/master/guides/Installation.md) and try:
+Still, we would encourage to try new **CLI** and share a feedback. We believe it will make using and setting up **SwiftyMocky** way easier. If you have an existing setup, install CLI as per this [guide](https://github.com/HubSpot/SwiftyMocky/blob/master/guides/Installation.md) and try:
 
 ```bash
 > swiftymocky migrate
@@ -107,7 +107,7 @@ Use CLI tool from your project directory:
 To install, add following to you Cartfile:
 
 ```ruby
-github "MakeAWishFoundation/SwiftyMocky"
+github "HubSpot/SwiftyMocky"
 ```
 
 Then execute `carthage update`
@@ -138,13 +138,13 @@ You need to install CLI to generate mocks - see [installation](#installation)
 
 ```bash
 > brew install mint
-> mint install MakeAWishFoundation/SwiftyMocky
+> mint install HubSpot/SwiftyMocky
 ```
 
 **[Marathon 🏃](https://github.com/JohnSundell/Marathon)**:
 
 ```bash
-> marathon install MakeAWishFoundation/SwiftyMocky
+> marathon install HubSpot/SwiftyMocky
 ```
 
 **Make**:
@@ -394,6 +394,6 @@ SwiftyMocky is available under the MIT license. See the [LICENSE][link-license] 
 <!-- Assets -->
 
 [logo]: https://raw.githubusercontent.com/HubSpot/SwiftyMocky/4.3.0/icon.png
-[example-watcher]: https://raw.githubusercontent.com/MakeAWishFoundation/SwiftyMocky/1.0.0/guides/assets/example-watcher.gif "Example - generation"
-[example-given]: https://raw.githubusercontent.com/MakeAWishFoundation/SwiftyMocky/1.0.0/guides/assets/example-given.gif "Example - given"
-[example-verify]: https://raw.githubusercontent.com/MakeAWishFoundation/SwiftyMocky/1.0.0/guides/assets/example-verify.gif "Example - verify"
+[example-watcher]: https://raw.githubusercontent.com/HubSpot/SwiftyMocky/1.0.0/guides/assets/example-watcher.gif "Example - generation"
+[example-given]: https://raw.githubusercontent.com/HubSpot/SwiftyMocky/1.0.0/guides/assets/example-given.gif "Example - given"
+[example-verify]: https://raw.githubusercontent.com/HubSpot/SwiftyMocky/1.0.0/guides/assets/example-verify.gif "Example - verify"
