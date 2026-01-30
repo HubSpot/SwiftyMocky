@@ -7,7 +7,7 @@ Library that uses metaprogramming technique to generate mocks based on sources, 
                        DESC
 
   s.homepage         = 'https://github.com/HubSpot/SwiftyMocky'
-  s.screenshots      = 'https://raw.githubusercontent.com/MakeAWishFoundation/SwiftyMocky/1.0.0/icon.png'
+  s.screenshots      = 'https://raw.githubusercontent.com/HubSpot/SwiftyMocky/1.0.0/icon.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Przemysław Wośko' => 'przemyslaw.wosko@intive.com', 'Andrzej Michnia' => 'amichnia@gmail.com' }
   s.source           = { :git => 'https://github.com/HubSpot/SwiftyMocky.git', :tag => s.version.to_s }
