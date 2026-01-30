@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'SwiftyPrototype'
-  s.version          = '4.2.0'
+  s.version          = '4.3.0'
   s.summary          = 'Prototyping/Faking library for Swift, with code generation. Auto-generates fakes/prototypes based on protocol definitions.'
   s.description      = <<-DESC
 Library that uses metaprogramming technique to generate fakes/prototypes based on sources, makin it easier to prototype app.
@@ -21,5 +21,5 @@ Library that uses metaprogramming technique to generate fakes/prototypes based o
   s.source_files = 'Sources/{SwiftyPrototype,Shared}/**/*.swift'
   s.resources = '{Sources/SwiftyPrototype/Prototype.swifttemplate}'
   s.frameworks = 'Foundation'
-  s.dependency 'Sourcery', '~> 1.8.0'
+  s.dependency 'Sourcery', '~> 1.9.0'
 end
