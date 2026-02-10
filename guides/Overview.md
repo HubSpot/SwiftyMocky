@@ -357,28 +357,28 @@ SwiftyMocky is available under the MIT license. See the [LICENSE][link-license] 
 
 <!-- Links -->
 
-[link-guides-installation]: https://rawcdn.githack.com/HubSpot/SwiftyMocky/4.3.0/docs/setup-in-project.html
-[link-guides-contents]: https://rawcdn.githack.com/HubSpot/SwiftyMocky/4.3.0/docs/contents.html
-[link-guides-examples]: https://rawcdn.githack.com/HubSpot/SwiftyMocky/4.3.0/docs/examples.html
-[link-changelog]: https://rawcdn.githack.com/HubSpot/SwiftyMocky/4.3.0/docs/changelog.html
+[link-guides-installation]: https://rawcdn.githack.com/HubSpot/SwiftyMocky/v4.3.0/docs/setup-in-project.html
+[link-guides-contents]: https://rawcdn.githack.com/HubSpot/SwiftyMocky/v4.3.0/docs/contents.html
+[link-guides-examples]: https://rawcdn.githack.com/HubSpot/SwiftyMocky/v4.3.0/docs/examples.html
+[link-changelog]: https://rawcdn.githack.com/HubSpot/SwiftyMocky/v4.3.0/docs/changelog.html
 
-[link-guides-cli]: https://rawcdn.githack.com/HubSpot/SwiftyMocky/4.3.0/docs/command-line-interface.html
-[link-guides-cli-migration]: https://rawcdn.githack.com/HubSpot/SwiftyMocky/4.3.0/docs/command-line-interface.html#migration
-[link-guides-cli-legacy]: https://rawcdn.githack.com/HubSpot/SwiftyMocky/4.3.0/docs/legacy.html
-[link-guides-cli-generate]: https://rawcdn.githack.com/HubSpot/SwiftyMocky/4.3.0/docs/command-line-interface.html#generate
-[link-guides-mockfile]: https://rawcdn.githack.com/HubSpot/SwiftyMocky/4.3.0/docs/mockfile.html
+[link-guides-cli]: https://rawcdn.githack.com/HubSpot/SwiftyMocky/v4.3.0/docs/command-line-interface.html
+[link-guides-cli-migration]: https://rawcdn.githack.com/HubSpot/SwiftyMocky/v4.3.0/docs/command-line-interface.html#migration
+[link-guides-cli-legacy]: https://rawcdn.githack.com/HubSpot/SwiftyMocky/v4.3.0/docs/legacy.html
+[link-guides-cli-generate]: https://rawcdn.githack.com/HubSpot/SwiftyMocky/v4.3.0/docs/command-line-interface.html#generate
+[link-guides-mockfile]: https://rawcdn.githack.com/HubSpot/SwiftyMocky/v4.3.0/docs/mockfile.html
 
 <!-- Links based on tag -->
 
-[link-docs]: https://rawcdn.githack.com/HubSpot/SwiftyMocky/4.3.0/docs/index.html
-[link-docs-features]: https://rawcdn.githack.com/HubSpot/SwiftyMocky/4.3.0/docs/supported-features.html
-[link-docs-installation]: https://rawcdn.githack.com/HubSpot/SwiftyMocky/4.3.0/docs/installation.html
-[link-docs-installation-carthage]: https://rawcdn.githack.com/HubSpot/SwiftyMocky/4.3.0/docs/installation.html#installation-carthage
-[link-docs-setup]: https://rawcdn.githack.com/HubSpot/SwiftyMocky/4.3.0/docs/setup-in-project.html
+[link-docs]: https://rawcdn.githack.com/HubSpot/SwiftyMocky/v4.3.0/docs/index.html
+[link-docs-features]: https://rawcdn.githack.com/HubSpot/SwiftyMocky/v4.3.0/docs/supported-features.html
+[link-docs-installation]: https://rawcdn.githack.com/HubSpot/SwiftyMocky/v4.3.0/docs/installation.html
+[link-docs-installation-carthage]: https://rawcdn.githack.com/HubSpot/SwiftyMocky/v4.3.0/docs/installation.html#installation-carthage
+[link-docs-setup]: https://rawcdn.githack.com/HubSpot/SwiftyMocky/v4.3.0/docs/setup-in-project.html
 
 <!-- Assets -->
 
-[logo]: https://raw.githubusercontent.com/HubSpot/SwiftyMocky/4.3.0/icon.png
+[logo]: https://raw.githubusercontent.com/HubSpot/SwiftyMocky/v4.3.0/icon.png
 [example-watcher]: https://raw.githubusercontent.com/HubSpot/SwiftyMocky/3.2.0/guides/assets/example-watcher.gif "Example - generation"
 [example-given]: https://raw.githubusercontent.com/HubSpot/SwiftyMocky/3.2.0/guides/assets/example-given.gif "Example - given"
 [example-verify]: https://raw.githubusercontent.com/HubSpot/SwiftyMocky/3.2.0/guides/assets/example-verify.gif "Example - verify"
