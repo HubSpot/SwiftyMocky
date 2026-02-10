@@ -169,3 +169,4 @@ Example/fastlane/test_output/report.junit
 default.profraw
 .DS_Store
 .vscode
+bin/*.zip
