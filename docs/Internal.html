@@ -17,7 +17,7 @@
     <a title="Internal  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html">SwiftyMocky 4.3.0 Docs</a> (85% documented)</p>
+        <p><a href="index.html">SwiftyMocky 4.3.0 Docs</a> (86% documented)</p>
         <p class="header-right"><a href="https://github.com/HubSpot/SwiftyMocky"><img src="img/gh.png" alt="GitHub"/>View on GitHub</a></p>
         <div class="header-right">
           <form role="search" action="search.json">
@@ -385,6 +385,16 @@
                           <p class="aside-title">Swift</p>
                           <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">extension</span> <span class="kt">Optional</span></code></pre>
 <pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">Optional</span><span class="p">:</span> <span class="kt"><a href="Protocols/OptionalType.html">OptionalType</a></span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">Optional</span><span class="p">:</span>
+    <span class="kt">ExpressibleByStringLiteral</span><span class="p">,</span>
+    <span class="kt">ExpressibleByExtendedGraphemeClusterLiteral</span><span class="p">,</span>
+    <span class="kt">ExpressibleByUnicodeScalarLiteral</span>
+    <span class="k">where</span> <span class="kt">Wrapped</span><span class="p">:</span> <span class="kt">ExpressibleByStringLiteral</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">Optional</span><span class="p">:</span> <span class="kt">ExpressibleByIntegerLiteral</span> <span class="k">where</span> <span class="kt">Wrapped</span><span class="p">:</span> <span class="kt">ExpressibleByIntegerLiteral</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">Optional</span><span class="p">:</span> <span class="kt">ExpressibleByBooleanLiteral</span> <span class="k">where</span> <span class="kt">Wrapped</span><span class="p">:</span> <span class="kt">ExpressibleByBooleanLiteral</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">Optional</span><span class="p">:</span> <span class="kt">ExpressibleByFloatLiteral</span> <span class="k">where</span> <span class="kt">Wrapped</span><span class="p">:</span> <span class="kt">ExpressibleByFloatLiteral</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">Optional</span><span class="p">:</span> <span class="kt">ExpressibleByArrayLiteral</span> <span class="k">where</span> <span class="kt">Wrapped</span><span class="p">:</span> <span class="kt">ExpressibleByArrayLiteral</span></code></pre>
+<pre class="highlight swift"><code><span class="kd">extension</span> <span class="kt">Optional</span><span class="p">:</span> <span class="kt">ExpressibleByDictionaryLiteral</span> <span class="k">where</span> <span class="kt">Wrapped</span><span class="p">:</span> <span class="kt">ExpressibleByDictionaryLiteral</span><span class="p">,</span> <span class="kt">Wrapped</span><span class="o">.</span><span class="kt">Key</span><span class="p">:</span> <span class="kt">Hashable</span></code></pre>
 
                         </div>
                       </div>
